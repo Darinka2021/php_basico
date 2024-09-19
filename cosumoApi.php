@@ -1,4 +1,7 @@
 <?php
+    //header page
+    include_once("cabecera.php");
+
     #cURL es una herramienta que nos permite transferir datos sin usar el navegador
     const API_URL = "https://whenisthenextmcufilm.com/api";
     #Iniciar una nueva sesion de cURl; ch = cURL handle
@@ -10,18 +13,9 @@
     $resultado = curl_exec($ch);
     $data = json_decode($resultado,true); //formateamos a Json
 ?>
-<head>
-    <meta charset="utf-8"/>
-    <title>La próxima pelicula de Marvel</title>
-    <meta name="description" content="La próxima pelicula de Marvel"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!--PICO css Centered viewport -->
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
-</head>
-<body>
-    <pre style="font-size: 8px; overflow:scroll; height: 150px;">
+<main>
+    <h1>Consumo de API</h1>
+    <pre>
         <?php var_dump($data);?>
     </pre>
     <section>
@@ -31,12 +25,11 @@
     <hgroup>
         <h2><?= $data["title"];?></h2>
     </hgroup>
-</body>
+</main>
 
-<style>
-    body{
-        display: grid;
-        place-content: center;
-        text-align: center;
-    }
-</style>
+
+<?php
+    //footer page
+    include_once("footer.php"); 
+ ?>
+

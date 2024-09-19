@@ -1,0 +1,15 @@
+main{
+    display: grid;
+    align-items: center;
+    padding: 0.5%;
+    text-align: justify;
+}
+pre{
+    font-size: 12px;
+    background-color: beige;
+    overflow:scroll; 
+    height: 250px;
+}
+h1{
+    text-align: center;
+}

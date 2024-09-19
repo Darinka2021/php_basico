@@ -1,2 +1,5 @@
 # php_basico
-Este proyecto desarrolla de manera básica el consumo de una API con el lenguaje php
+
+Este proyecto implementara lo aprendido de manera basica lo aprendido en php
+# tipos_de_variables
+# consumo de Api
