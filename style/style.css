@@ -1,8 +1,6 @@
 main{
-    display: grid;
-    align-items: center;
+    /* display: grid; */
     padding: 0.5%;
-    text-align: justify;
 }
 pre{
     font-size: 12px;
@@ -10,6 +8,41 @@ pre{
     overflow:scroll; 
     height: 250px;
 }
-h1{
+h2{
+    width: 100%;
     text-align: center;
+}
+h2,h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mycard{
+    padding: 2px;
+}
+#cb_texto {
+    float: left;
+    
+}
+#cb_img_logo_php{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+#cb_img_logo_php img{
+     width: 200px;
+     background-color: rgb(191, 147, 232);
+}
+#cb_img_logo_php p{
+    width: 200px;
+    border: 2px solid black;
+    background-color: rgba(147, 17, 173, 0.494);
+}
+
+@media (max-width: 600px) {
+    #cb{
+        background-color: antiquewhite;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
 }

@@ -14,7 +14,7 @@
     $data = json_decode($resultado,true); //formateamos a Json
 ?>
 <main>
-    <h1>Consumo de API</h1>
+    <h2>Consumo de API</h2>
     <pre>
         <?php var_dump($data);?>
     </pre>
@@ -26,7 +26,6 @@
         <h2><?= $data["title"];?></h2>
     </hgroup>
 </main>
-
 
 <?php
     //footer page
