@@ -2,12 +2,6 @@ main{
     /* display: grid; */
     padding: 0.5%;
 }
-pre{
-    font-size: 12px;
-    background-color: beige;
-    overflow:scroll; 
-    height: 250px;
-}
 h2{
     width: 100%;
     text-align: center;
@@ -16,9 +10,6 @@ h2,h5{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.mycard{
-    padding: 2px;
-}
 #cb_texto {
     float: left;
     
@@ -38,6 +29,32 @@ h2,h5{
     background-color: rgba(147, 17, 173, 0.494);
 }
 
+.api_pre pre{
+    background-color: rgb(177, 201, 201);
+    width: 500px;
+    height: 350px;
+    margin: 5px;
+    padding: 2px;
+    overflow: scroll;
+    display: block;
+    float: left; 
+}
+
+.api_img{
+    text-align: center;
+}
+.api_img img{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.api_descrition{
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
 @media (max-width: 600px) {
     #cb{
         background-color: antiquewhite;
@@ -45,4 +62,24 @@ h2,h5{
         justify-content: center;
         align-content: center;
     }
+    .api_pre pre{
+        height: 200px;
+    }
+    .api_img img{
+        width: 300px;
+        height: 350px;
+        margin: 5px;
+    }
+    .api_img img{
+        height: 100%;
+    }
+    .api_pre pre{
+        width: 100%;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+    }
+
 }
+
+

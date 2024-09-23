@@ -74,7 +74,7 @@
     ?>
     <!--vista HTML------------------------------------------------------------------------------>
     <div>
-        <div class="mycard" id="cb">
+        <div class="myclassIndex" id="cb">
             <h2>concepto b&aacute;sico</h2>
             <div id="cb_texto">
                 <h5>Variables</h5>
