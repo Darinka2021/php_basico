@@ -31,8 +31,8 @@
                                 Apis
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="cosumoApi.php">Api</a></li>
-                                <li><a class="dropdown-item" href="consumoApi2.php">Api2</a></li>
+                                <li><a class="dropdown-item" href="cosumoApi.php">Nuevos estrenos</a></li>
+                                <li><a class="dropdown-item" href="consumoApi2.php">Perro</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <!-- <li>
                                     <hr class="dropdown-divider">
